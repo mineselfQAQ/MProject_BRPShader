@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard_NonPBR1
+  m_Shader: {fileID: 4800000, guid: 875855dfc927ae440b9c6608e6826c84, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: 54a1e9518b24ad24080ed8336c609d96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 026511a67ce5741498fb5a09d6917e11, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ce8ecfe64754b294d9853b7fd9a58a43, type: 3}
+        m_Scale: {x: 5, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTex:
+        m_Texture: {fileID: 2800000, guid: c98b886805784fb40bde5270c21d62ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AmbiInt: 1
+    - _CubemapInt: 0
+    - _CubemapMipmap: 2
+    - _DiffInt: 1
+    - _FresnelInt: 0.5
+    - _FresnelPow: 3
+    - _Gloss: 10
+    - _SpecInt: 0.25
+    m_Colors:
+    - _DiffCol: {r: 1, g: 1, b: 1, a: 1}
+    - _R0: {r: 0.04, g: 0.04, b: 0.04, a: 0}
+    - _SpecCol: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

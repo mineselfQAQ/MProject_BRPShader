@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoMaterial
+  m_Shader: {fileID: 4800000, guid: 86c44445ce35e6042ab3d2b1333a07ba, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 76e8006a05a958d46aa750657e6670b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DiffInt: 1
+    - _Gloss: 100
+    - _Int: 0.072
+    - _NDiffInt: 0.8
+    - _NGloss: 34.4
+    - _NSpecInt: 1
+    - _SpecInt: 2.2
+    m_Colors:
+    - _DiffCol: {r: 1, g: 1, b: 1, a: 1}
+    - _NDiffCol: {r: 1, g: 0, b: 0, a: 1}
+    - _NSpecCol: {r: 0.85746205, g: 1, b: 0, a: 1}
+    - _SpecCol: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
